@@ -99,7 +99,7 @@
 	</br>
 	</br>
 	
-	<form name="name" id="name_1">
+	<form action = "dynamodbUploader.php" method = "post" name="name" id="name_1">
 		<div class="input-group">
 		  <span class="input-group-addon">Place Name</span>
 		  <input id="name1" input type="text" class="form-control" name="name1" placeholder="Enter Here">
@@ -111,7 +111,7 @@
 	
 	
 	
-	<form name="feeling1" id="feeling_1">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling1" id="feeling_1">
 	<br/>
 		<h3>Feeling 1</h3>
 		<br/>	
@@ -132,7 +132,7 @@
 	</script>
 	</form>
 	
-	<form name="feeling2" id="feeling_2">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling2" id="feeling_2">
 	<br/>
 		<h3>Feeling 2</h3>
 		<br/>	
@@ -141,7 +141,7 @@
 		</br>
 	</form>
 	
-	<form name="feeling3" id="feeling_3">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling3" id="feeling_3">
 		<br/>
 		<h3>Feeling 3</h3>
 			<br/>	
@@ -150,7 +150,7 @@
 			</br>
 	</form>
 	
-	<form name="feeling4" id="feeling_4">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling4" id="feeling_4">
 		<br/>
 		<h3>Feeling 4</h3>
 			<br/>	
@@ -159,7 +159,7 @@
 			</br>
 	</form>
 	
-	<form name="feeling5" id="feeling_5">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling5" id="feeling_5">
 		<br/>
 		<h3>Feeling 5</h3>
 			<br/>	
@@ -168,7 +168,7 @@
 		</br>
 	</form>
 	
-	<form name="feeling6" id="feeling_6">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling6" id="feeling_6">
 		<br/>
 		<h3>Feeling 6</h3>
 			<br/>	
@@ -178,7 +178,7 @@
 	</form>
 	
 	
-	<form name="feeling7" id="feeling_7">
+	<form action = "dynamodbUploader.php" method = "post" name="feeling7" id="feeling_7">
 		<br/>
 		<h3>Feeling 7</h3>
 			<br/>	
@@ -213,7 +213,8 @@
 		var feeling5 = parseInt(document.getElementById("feeling5").value);
 		var feeling6 = parseInt(document.getElementById("feeling6").value);
 		var feeling7 = parseInt(document.getElementById("feeling7").value);
-		
+
+
 		
 	</script>
 	
