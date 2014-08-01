@@ -6,6 +6,9 @@
  * Time: 9:20 p.m.
  */
 
+require "vendor/autoload.php";
+
+
 use Aws\DynamoDb\DynamoDbClient;
 use Aws\Common\Enum\Region;
 use Aws\DynamoDb\Enum\Type;
