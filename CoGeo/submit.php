@@ -305,12 +305,12 @@
                 return;
             }
 
-            // If the place has a geometry, then present it on a map.
+
             if (place.geometry.viewport) {
                 map.fitBounds(place.geometry.viewport);
             } else {
                 map.setCenter(place.geometry.location);
-                map.setZoom(17);  // Why 17? Because it looks good.
+                map.setZoom(17);
             }
             marker.setIcon(/** @type {google.maps.Icon} */({
                 url: place.icon,

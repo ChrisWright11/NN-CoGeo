@@ -35,7 +35,7 @@
       <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="0" selection-start="7717" selection-end="7717" vertical-scroll-proportion="0.3177388" vertical-offset="5252" max-vertical-offset="6726">
+            <state line="261" column="9" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.5555556" vertical-offset="4674" max-vertical-offset="6726">
               <folding />
             </state>
           </provider>
@@ -45,15 +45,6 @@
         <entry file="file://$USER_HOME$/Desktop/google_places_autofill_formonly.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="78" column="0" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-15.964286" vertical-offset="1035" max-vertical-offset="1596">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googlePlace.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/googlePlace.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="49" selection-start="4631" selection-end="4660" vertical-scroll-proportion="-5.0" vertical-offset="2166" max-vertical-offset="3192">
               <folding />
             </state>
           </provider>
@@ -95,15 +86,6 @@
                 <element signature="e#2860#2962#0" expanded="true" />
                 <element signature="e#3005#3037#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submitted.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/submitted.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="0" selection-end="3205" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="2432">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,7 +198,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -614,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submitted.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="0" selection-end="3205" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="2432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/mythirdwebpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="24" selection-start="2662" selection-end="2662" vertical-scroll-proportion="-14.25" vertical-offset="1349" max-vertical-offset="2470">
@@ -671,16 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/googlePlace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="49" selection-start="4631" selection-end="4660" vertical-scroll-proportion="-5.0" vertical-offset="2166" max-vertical-offset="3192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="0" selection-start="7717" selection-end="7717" vertical-scroll-proportion="0.3177388" vertical-offset="5252" max-vertical-offset="6726">
+        <state line="261" column="9" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.5555556" vertical-offset="4674" max-vertical-offset="6726">
           <folding />
         </state>
       </provider>
