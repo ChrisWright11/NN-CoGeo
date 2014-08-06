@@ -35,16 +35,7 @@
       <file leaf-file-name="submit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="9" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.5555556" vertical-offset="4674" max-vertical-offset="6726">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google_places_autofill_formonly.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/google_places_autofill_formonly.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-15.964286" vertical-offset="1035" max-vertical-offset="1596">
+            <state line="279" column="41" selection-start="7588" selection-end="7588" vertical-scroll-proportion="0.16934046" vertical-offset="5206" max-vertical-offset="5776">
               <folding />
             </state>
           </provider>
@@ -53,27 +44,8 @@
       <file leaf-file-name="places.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/places.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-13.928572" vertical-offset="1814" max-vertical-offset="2375">
-              <folding>
-                <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-                <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-                <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-                <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-                <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-                <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-              </folding>
+            <state line="87" column="0" selection-start="2736" selection-end="2736" vertical-scroll-proportion="-31.464285" vertical-offset="772" max-vertical-offset="2375">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,11 +53,8 @@
       <file leaf-file-name="dynamodbUploader.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.142858" vertical-offset="152" max-vertical-offset="3686">
-              <folding>
-                <element signature="e#2860#2962#0" expanded="true" />
-                <element signature="e#3005#3037#0" expanded="true" />
-              </folding>
+            <state line="131" column="0" selection-start="3879" selection-end="3879" vertical-scroll-proportion="-14.928572" vertical-offset="1900" max-vertical-offset="3553">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +74,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/places.php" />
         <option value="$PROJECT_DIR$/submitted.php" />
-        <option value="$PROJECT_DIR$/dynamodbUploader.php" />
         <option value="$PROJECT_DIR$/googlePlace.html" />
+        <option value="$PROJECT_DIR$/dynamodbUploader.php" />
         <option value="$PROJECT_DIR$/submit.php" />
       </list>
     </option>
@@ -214,11 +183,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -240,6 +209,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="14" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="9" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.0" vertical-offset="4959" max-vertical-offset="6726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/places.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="0.0" vertical-offset="1814" max-vertical-offset="2375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="3686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2375">
           <folding />
         </state>
@@ -255,44 +252,20 @@
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="15" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="40" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1273">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -312,44 +285,20 @@
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -369,44 +318,20 @@
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -426,44 +351,20 @@
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1045">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -483,44 +384,20 @@
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="18" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1045">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -540,46 +417,43 @@
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="3" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="684">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/index (1).php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="0" selection-end="3232" vertical-scroll-proportion="0.3877551" vertical-offset="0" max-vertical-offset="2375">
-          <folding />
-        </state>
+        <state line="11" column="35" selection-start="0" selection-end="3232" vertical-scroll-proportion="0.3877551" vertical-offset="0" max-vertical-offset="2375" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="0" selection-start="5606" selection-end="5606" vertical-scroll-proportion="0.5597148" vertical-offset="3619" max-vertical-offset="4180">
-          <folding />
-        </state>
+        <state line="207" column="0" selection-start="5606" selection-end="5606" vertical-scroll-proportion="0.5597148" vertical-offset="3619" max-vertical-offset="4180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.13547237" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="59" selection-end="59" vertical-scroll-proportion="0.13547237" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/places.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="0" selection-end="2750" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="2375">
-          <folding />
-        </state>
+        <state line="12" column="25" selection-start="0" selection-end="2750" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="2375" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/submitted.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="78" selection-start="0" selection-end="2886" vertical-scroll-proportion="0.4064171" vertical-offset="0" max-vertical-offset="2432" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/mythirdwebpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="24" selection-start="2662" selection-end="2662" vertical-scroll-proportion="-14.25" vertical-offset="1349" max-vertical-offset="2470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -589,66 +463,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/submitted.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="0" selection-end="2886" vertical-scroll-proportion="0.4064171" vertical-offset="0" max-vertical-offset="2432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/mythirdwebpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="24" selection-start="2662" selection-end="2662" vertical-scroll-proportion="-14.25" vertical-offset="1349" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-13.928572" vertical-offset="1814" max-vertical-offset="2375">
-          <folding>
-            <marker date="1407123431957" expanded="true" signature="22:3047" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="29:1364" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="661:1354" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="677:1099" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1111:1180" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1191:1260" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1272:1341" placeholder="{...}" />
-            <marker date="1407123431957" expanded="true" signature="1372:3038" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1398:2734" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1428:2724" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1492:2713" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1534:2672" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1658:2150" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="1790:2056" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2326:2627" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2374:2602" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2758:3002" placeholder="..." />
-            <marker date="1407123431957" expanded="true" signature="2800:2938" placeholder="..." />
-          </folding>
+        <state line="87" column="0" selection-start="2736" selection-end="2736" vertical-scroll-proportion="-31.464285" vertical-offset="772" max-vertical-offset="2375">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.142858" vertical-offset="152" max-vertical-offset="3686">
-          <folding>
-            <element signature="e#2860#2962#0" expanded="true" />
-            <element signature="e#3005#3037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/google_places_autofill_formonly.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-15.964286" vertical-offset="1035" max-vertical-offset="1596">
+        <state line="131" column="0" selection-start="3879" selection-end="3879" vertical-scroll-proportion="-14.928572" vertical-offset="1900" max-vertical-offset="3553">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="9" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.5555556" vertical-offset="4674" max-vertical-offset="6726">
+        <state line="279" column="41" selection-start="7588" selection-end="7588" vertical-scroll-proportion="0.16934046" vertical-offset="5206" max-vertical-offset="5776">
           <folding />
         </state>
       </provider>

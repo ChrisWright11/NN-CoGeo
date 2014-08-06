@@ -115,7 +115,7 @@
     ));
 
     $tableName = "CoGeo_Place_Database";
-    $placeName = $_POST["name1"];
+    $placeId  = $_POST["placeId"];
     $feeling1 = $_POST["feeling1"];
     $feeling2 = $_POST["feeling2"];
     $feeling3 = $_POST["feeling3"];
@@ -123,6 +123,7 @@
     $feeling5 = $_POST["feeling5"];
     $feeling6 = $_POST["feeling6"];
     $feeling7 = $_POST["feeling7"];
+    $placeReference = $_POST["placeReference"];
 
 
     ################################################################
@@ -132,7 +133,7 @@
     $response = $client->putItem(array(
         "TableName" => $tableName,
         "Item" => $client->formatAttributes(array(
-                    "Name" => $placeName,
+                    "PlaceId" => $placeId,
                     "Chatty" => $feeling1,
                     "Buzz" => $feeling2,
                     "Pump" => $feeling3,
@@ -140,6 +141,7 @@
                     "Bustle" => $feeling5,
                     "LoveyDovey" => $feeling6,
                     "Trackies" => $feeling7,
+                    "PlaceReference" => $placeReference
                 )
             ),
         "ReturnConsumedCapacity" => 'TOTAL',
