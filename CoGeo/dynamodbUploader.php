@@ -109,8 +109,7 @@
     use Aws\DynamoDb\Enum\ReturnValue;
 
     $client = DynamoDbClient::factory(array(
-        'key' => 'AKIAIIPESLZS2YXBZNOA',
-        'secret' => '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',
+]
         'region' => Region::AP_SOUTHEAST_2
     ));
 
