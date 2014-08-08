@@ -20,11 +20,11 @@
     <style>
 
 
-        body {
+        body{
             text-align: center;
-            background-image: url("galaxy.jpg");
-        <!-- background : url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");
-        --> background-size : cover;
+			background-image: url("galaxy.jpg");
+            <!-- background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1"); -->
+            background-size: cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -33,17 +33,17 @@
 
         }
 
-        h1 {
+        h1{
             text-align: center;
             color: white;
         }
 
-        p {
+        p{
             text-align: center;
             color: white;
         }
 
-        h3 {
+        h3{
             text-align: center;
             color: white;
         }
@@ -54,16 +54,15 @@
 </head>
 
 <body>
-<header class="navbar">
-    <div class="container">
+<header class = "navbar">
+    <div class = "container">
 
 
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -82,29 +81,25 @@
                     </ul>
 
 
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
     </div>
 </header>
 <div class="container">
     <h1> Search for a Location</h1>
-
     <p>
         Describe how you are feeling or wish to feel using the feeling sliders below
     </p>
-
     <h3></h3>
     </br>
     </br>
-    <form action="results.php" method="post" name="uploadForm" id="uploadForm">
-        <h3>Chatty</h3>
+
+	        <h3>Chatty</h3>
         <br/>
 
         <p>Quiet Time -----> Conversational -----> Outgoing</p>
-        <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="1"
+        <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -123,9 +118,6 @@
             function showValue(self) {
                 get_nextsibling(self).innerHTML = self.value;
             }
-            function uploadSpot() {
-                document.getElementById("uploadForm").submit();
-            }
         </script>
 
 
@@ -135,7 +127,7 @@
         <br/>
 
         <p>Relaxed -----> Eager -----> Wild</p>
-        <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="1"
+        <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -147,7 +139,7 @@
         <br/>
 
         <p>Rest -----> Sweaty -----> Intense</p>
-        <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="1"
+        <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -159,7 +151,7 @@
         <br/>
 
         <p>Comfortable -----> Explorative -----> Fearless</p>
-        <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="1"
+        <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -171,7 +163,7 @@
         <br/>
 
         <p>Lone Wolf -----> Amongst It -----> Sardine Can</p>
-        <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="1"
+        <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -184,7 +176,7 @@
         <br/>
 
         <p>Platonic -----> Flirty -----> Intimate</p>
-        <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="1"
+        <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -197,7 +189,7 @@
         <br/>
 
         <p>Casual -----> Smart -----> Formal</p>
-        <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="1"
+        <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="0.01"
                onchange="showValue(this)"/>
 
         <p><span id="range">5</span></p>
@@ -206,9 +198,9 @@
 
 
 </div>
-
-</br>
-</br>
+	
+    </br>
+    </br>
 
 
 <div class="search-btn">
@@ -225,6 +217,7 @@
 </br>
 </br>
 </br>
+
 
 
 </body>
