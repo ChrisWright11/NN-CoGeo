@@ -68,17 +68,16 @@
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">CoGeo</a>
+                    <a class="navbar-brand" href="index.php">CoGeo</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="places.php">Search</a></li>
                         <li><a href="submit.php">Add Spot</a></li>
-                        <li><a href="places.php">See All</a></li>
+                        
 
                     </ul>
 
@@ -91,10 +90,10 @@
 <div class="container">
     <h1> Welcome to CoGeo</h1>
     <p>
-        CoGeo is your one shop stop for everything adventurous,
+        CoGeo is your one stop shop for everything adventurous,
         exciting and romantic when in Melbourne! Use our add location
         link below to share one of your favourite hidden gems.
-        or click the see all to see what other people have shared.
+        or click the search to see what other people have shared.
     </p>
     <h3> Get CoGeo-ing!!!</h3>
     </br>

@@ -194,74 +194,84 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
 <style>
 
 
-    body {
-        text-align: center;
-        background-image: url("galaxy.jpg");
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+    body{
+            text-align: center;
+            background-image: url("galaxy.jpg");
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center fixed;
 
-    }
+        }
 
-    h1 {
-        text-align: center;
-        color: white;
-    }
+        h1{
+            text-align: center;
+            color: white;
+        }
 
-    p {
-        color: rgba(255, 255, 255, 1);
-        background: black;
-        background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-        background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-        background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-        line-height: 28px;
-        text-align: center;
-    <!-- max-width : 400 px;
-    --> height : 15 px;
-        position: center;
-        transition: height .5s;
-        -webkit-transition: height .5s;
-        -moz-transition: height .5s;
-    }
+        p {
+		  color: rgba(255,255,255,1);
+		  background: black;
+		  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+		  line-height: 28px;
+		  text-align: center;
+		  <!--max-width: 400px;-->
+		  height: 15px;
+		  position: center;
+		  transition: height .5s;
+		  -webkit-transition: height .5s;
+		  -moz-transition: height .5s;
+		}
 
-    h3 {
-        text-align: center;
-        color: white;
-    }
+        h3{
+            text-align: center;
+            color: white;
+        }
+		
+		small{
+			opacity: 0;
+		}
+		
+		.show-description p{
+			height: 250px;
+		}
+		
+		.show-description small {
+			opacity: 1;
+		}
+		
+		.carousel-caption{
+			text-align: center;
+			position: center;
+		}
+		
+		.price{
+			float: left;
+			margin: 10px;
+		}
+		
+		.relevance{
+			margin: 10px;
+		}
+		
+		.location{
+			float: right;
+			margin: 10px;
+		}
+		
+		.carousel {
+		  max-height: 700px;
+		  overflow: hidden;
 
-    small {
-        opacity: 0;
-    }
-
-    .show-description p {
-        height: 250px;
-    }
-
-    .show-description small {
-        opacity: 1;
-    }
-
-    .carousel-caption {
-        text-align: center;
-        position: center;
-    }
-
-    .price {
-        float: left;
-        margin: 10px;
-    }
-
-    .relevance {
-        margin: 10px;
-    }
-
-    .location {
-        float: right;
-        margin: 10px;
-    }
+		  .item img {
+			width: 100%;
+			height: auto;
+		  }
+		}
 
 
 </style>
@@ -278,8 +288,7 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -290,7 +299,7 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="places.php">Search</a></li>
+						<li class="active"><a href="places.php">Search</a></li>
                         <li><a href="submit.php">Add Spot</a></li>
 
                     </ul>
@@ -457,9 +466,7 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
 </br>
 </br>
 
-<input type="text" class="span2" value="" data-slider-min="-20" data-slider-max="20" data-slider-step="1"
-       data-slider-value="-14" data-slider-orientation="vertical" data-slider-selection="after"
-       data-slider-tooltip="hide">
+
 
 
 </br>

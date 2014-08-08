@@ -159,7 +159,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="places.php">Search</a></li>
-                        <li class="active"><a href="#">Add Spot</a></li>
+                        <li class="active"><a href="submit.php">Add Spot</a></li>
 
                     </ul>
 
