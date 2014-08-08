@@ -23,10 +23,9 @@
     <style>
 
 
-        body{
+        body {
             text-align: center;
-			background-image: url("galaxy.jpg");
-            <!-- background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");-->
+            background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");
             background-size: cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -36,17 +35,17 @@
 
         }
 
-        h1{
+        h1 {
             text-align: center;
             color: white;
         }
 
-        p{
+        p {
             text-align: center;
             color: white;
         }
 
-        h3{
+        h3 {
             text-align: center;
             color: white;
         }
@@ -57,15 +56,16 @@
 </head>
 
 <body>
-<header class = "navbar">
-    <div class = "container">
+<header class="navbar">
+    <div class="container">
 
 
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -79,13 +79,15 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="submit.php">Add Spot</a></li>
-                        <li><a href="places.php">Search</a></li>
+                        <li><a href="places.php">See All</a></li>
 
                     </ul>
 
 
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
         </nav>
     </div>
 </header>
@@ -110,12 +112,13 @@
     use Aws\DynamoDb\Enum\ReturnValue;
 
     $client = DynamoDbClient::factory(array(
-]
+        'key' => 'AKIAJ2TIE2BO4YR7ROVQ',
+        'secret' => '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',
         'region' => Region::AP_SOUTHEAST_2
     ));
 
     $tableName = "CoGeo_Place_Database";
-    $placeId  = $_POST["placeId"];
+    $placeId = $_POST["placeId"];
     $feeling1 = $_POST["feeling1"];
     $feeling2 = $_POST["feeling2"];
     $feeling3 = $_POST["feeling3"];
@@ -163,7 +166,9 @@
     <div class="home-btn">
         </br>
         <!-- Indicates a successful or positive action -->
-        <a href="index.php"><button type="button" class="btn btn-success btn-lg" onclick="uploadSpot()">Home</button></a>
+        <a href="index.php">
+            <button type="button" class="btn btn-success btn-lg" onclick="uploadSpot()">Home</button>
+        </a>
         </br>
     </div>
 
@@ -177,7 +182,6 @@
 </br>
 </br>
 </br>
-
 
 
 </body>
