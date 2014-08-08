@@ -25,7 +25,8 @@
 
         body{
             text-align: center;
-            background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");
+			background-image: url("galaxy.jpg");
+            <!-- background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");-->
             background-size: cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -78,7 +79,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="submit.php">Add Spot</a></li>
-                        <li><a href="places.php">See All</a></li>
+                        <li><a href="places.php">Search</a></li>
 
                     </ul>
 
