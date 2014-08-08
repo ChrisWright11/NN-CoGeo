@@ -26,16 +26,15 @@
 
         body {
             text-align: center;
-			background-image: url("galaxy.jpg");
-            <!-- background: url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1"); -->
-            background-size: cover;
+            background-image: url("galaxy.jpg");
+        <!-- background : url("http://wallpaperscraft.com/image/mountain_peak_stars_sky_night_light_snow_46057_1920x1200.jpg?orig=1");
+        --> background-size : cover;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-repeat: no-repeat;
             background-position: position;
-			
-			
+
         }
 
         .controls {
@@ -48,22 +47,22 @@
             outline: none;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         }
-		
-		.sliders{
-		
-			width: 700px;
-			margin-left: auto;
-			margin-right: auto;
 
-		}
-		
-		.low{
-			float: left;
-		}
-		
-		.high{
-			float: right;
-		}
+        .sliders {
+
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .low {
+            float: left;
+        }
+
+        .high {
+            float: right;
+        }
 
         #map-canvas {
             height: 300px;
@@ -102,32 +101,32 @@
             text-align: center;
             color: white;
         }
-		
-		
-		
-		@media (max-width: 1000px){
-		
-		.sliders{
-		
-			width: auto;
-			margin-left: auto;
-			margin-right: auto;
 
-		}	
-		
-		p{
-			text-align: center;
-			color: white;
-			<!-- font-size: 8px; -->
-		}
-		
-		h3{
-			text-align: center;
-            color: white;
-			<!-- font-size: 16px; -->
-		}
-		
-		}
+        @media (max-width: 1000px) {
+
+            .sliders {
+
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            p {
+                text-align: center;
+                color: white;
+            <!-- font-size : 8 px;
+            -->
+            }
+
+            h3 {
+                text-align: center;
+                color: white;
+            <!-- font-size : 16 px;
+            -->
+            }
+
+        }
 
 
     </style>
@@ -149,7 +148,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
-                        
+
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
@@ -184,117 +183,104 @@
     <h3></h3>
     </br>
     </br>
-	
-		<input id="place-input" type="text" class="controls" name="name1" placeholder="Enter Here"/>
 
-		<form action="dynamodbUploader.php" method="post" name="uploadForm" id="uploadForm">
+    <input id="place-input" type="text" class="controls" name="name1" placeholder="Enter Here"/>
 
-
-			<input id="placeId" type="hidden" name="placeId" value=""/>
-			<input id="placeReference" type="hidden" name="placeReference" value="">
-
-			<br/>
-		<div class="sliders">
-			<h3>Chatty</h3>
-			<br/>
-
-			<p><span class="low">Quiet Time</span>  Conversational  <span class="high">Outgoing<span></p>
-			<input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
-			<script type="text/javascript">
+    <form action="dynamodbUploader.php" method="post" name="uploadForm" id="uploadForm">
 
 
-				function get_nextsibling(n) {
-					x = n.nextSibling;
-					while (x.nodeType != 1) {
-						x = x.nextSibling;
-					}
-					return x;
-				}
+        <input id="placeId" type="hidden" name="placeId" value=""/>
+        <input id="placeReference" type="hidden" name="placeReference" value="">
 
-				function showValue(self) {
-					get_nextsibling(self).innerHTML = self.value;
-				}
-			</script>
+        <br/>
 
+        <div class="sliders">
+            <h3>Chatty</h3>
+            <br/>
 
-			
+            <p><span class="low">Quiet Time</span> Conversational <span class="high">Outgoing<span></p>
+            <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-			<h3>Buzz</h3>
-			<br/>
+            <p><span id="range">5</span></p>
 
-			<p><span class="low">Relaxed</span>  Eager  <span class="high">Wild<span></p>
-			<input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
-
-			
-
-			<h3>Pump</h3>
-			<br/>
-
-			<p><span class="low">Rest</span>  Sweaty  <span class="high">Intense<span></p>
-			<input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
-
-			
-
-			<h3>Adventure</h3>
-			<br/>
-
-			<p><span class="low">Comfortable</span>  Explorative  <span class="high">Fearless<span></p>
-			<input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
-
-			
-
-			<h3>Bustle</h3>
-			<br/>
-
-			<p><span class="low">Lone Wolf</span>  Amongst It  <span class="high">Sardine Can<span></p>
-			<input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
+            <script type="text/javascript">
 
 
-			
+                function get_nextsibling(n) {
+                    x = n.nextSibling;
+                    while (x.nodeType != 1) {
+                        x = x.nextSibling;
+                    }
+                    return x;
+                }
 
-			<h3>Lovey Dovey</h3>
-			<br/>
-
-			<p><span class="low">Platonic</span>  Flirty  <span class="high">Intimate<span></p>
-			<input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
-
-			<p><span id="range">5</span></p>
-			
+                function showValue(self) {
+                    get_nextsibling(self).innerHTML = self.value;
+                }
+            </script>
 
 
-		
+            <h3>Buzz</h3>
+            <br/>
 
-			<h3>Trackies</h3>
-			<br/>
+            <p><span class="low">Relaxed</span> Eager <span class="high">Wild<span></p>
+            <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-			<p><span class="low">Casual</span>  Smart  <span class="high">Formal<span></p>
-			<input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="0.01"
-				   onchange="showValue(this)"/>
+            <p><span id="range">5</span></p>
 
-			<p><span id="range">5</span></p>
-			</br>
-	</div>
+
+            <h3>Pump</h3>
+            <br/>
+
+            <p><span class="low">Rest</span> Sweaty <span class="high">Intense<span></p>
+            <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Adventure</h3>
+            <br/>
+
+            <p><span class="low">Comfortable</span> Explorative <span class="high">Fearless<span></p>
+            <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Bustle</h3>
+            <br/>
+
+            <p><span class="low">Lone Wolf</span> Amongst It <span class="high">Sardine Can<span></p>
+            <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Lovey Dovey</h3>
+            <br/>
+
+            <p><span class="low">Platonic</span> Flirty <span class="high">Intimate<span></p>
+            <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Trackies</h3>
+            <br/>
+
+            <p><span class="low">Casual</span> Smart <span class="high">Formal<span></p>
+            <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+            </br>
+        </div>
     </form>
 
 
