@@ -157,6 +157,16 @@ $placeName_7 = $data_7->result->name;
 $placeName_8 = $data_8->result->name;
 $placeName_9 = $data_9->result->name;
 
+$placeAddress_1 = $data_1->result->formatted_address;
+$placeAddress_2 = $data_2->result->formatted_address;
+$placeAddress_3 = $data_3->result->formatted_address;
+$placeAddress_4 = $data_4->result->formatted_address;
+$placeAddress_5 = $data_5->result->formatted_address;
+$placeAddress_6 = $data_6->result->formatted_address;
+$placeAddress_7 = $data_7->result->formatted_address;
+$placeAddress_8 = $data_8->result->formatted_address;
+$placeAddress_9 = $data_9->result->formatted_address;
+
 
 $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=";
 
@@ -319,8 +329,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_1 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_1 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -332,8 +342,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_2 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_2 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -345,8 +355,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_3 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_3 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -358,8 +368,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_4 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_4 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -371,8 +381,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_5 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_5 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -384,8 +394,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_6 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_6 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -397,8 +407,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_7 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_7 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -410,8 +420,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_8 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+
+                        <span class="location"><?php echo $placeAddress_8 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
@@ -423,8 +433,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                     <h3><?php echo $placeName_9 ?></h3>
 
                     <p><span class="price">INSERT PRICE</span>
-                        <span class="relevance">INSERT RELEVANCE</span>
-                        <span class="location">INSERT LOCATION</span></br>
+                       
+                        <span class="location"><?php echo $placeAddress_9 ?></span></br>
                         <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
                     </p>
                 </div>
