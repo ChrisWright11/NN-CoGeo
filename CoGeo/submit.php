@@ -216,7 +216,7 @@
             <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
             <script type="text/javascript">
 
@@ -242,7 +242,7 @@
             <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
 
             <h3>Pump</h3>
@@ -252,7 +252,7 @@
             <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
 
             <h3>Adventure</h3>
@@ -262,7 +262,7 @@
             <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
 
             <h3>Bustle</h3>
@@ -272,7 +272,7 @@
             <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
 
             <h3>Lovey Dovey</h3>
@@ -282,7 +282,7 @@
             <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
 
 
             <h3>Trackies</h3>
@@ -292,7 +292,7 @@
             <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="1"
                    onchange="showValue(this)"/>
 
-            <p><span id="range">5</span></p>
+            <p><span id="range"></span></p>
             </br>
         </div>
     </form>
