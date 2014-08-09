@@ -46,6 +46,47 @@
             text-align: center;
             color: white;
         }
+		
+		 @media (max-width: 1000px) {
+
+            .sliders {
+
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            p {
+                text-align: center;
+                color: white;
+            <!-- font-size : 8 px;
+            -->
+            }
+
+            h3 {
+                text-align: center;
+                color: white;
+            <!-- font-size : 16 px;
+            -->
+            }
+			
+			
+		body {
+			text-align: center;
+			background-image: url("mobile.jpg");
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center fixed;
+
+		}
+	
+
+        }
+
 
     </style>
 
