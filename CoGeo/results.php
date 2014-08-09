@@ -302,7 +302,23 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         width: 500px;
         height: 500px;
     }
+	
+	.sliders {
 
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.low {
+		float: left;
+	}
+
+	.high {
+		float: right;
+	}
+	
     }
 
     #map-canvas {
@@ -311,6 +327,54 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         margin: 0px;
         padding: 0px
     }
+	
+	.left{
+		float: left;
+	}
+	
+	.right{
+		float: right;
+	}
+	
+	@media (max-width: 1000px){
+		body {
+        text-align: center;
+        background-image: url("mobile.jpg");
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center fixed;
+
+    }
+	
+	.sliders {
+
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	p {
+		text-align: center;
+		color: white;
+	<!-- font-size : 8 px;
+	-->
+	}
+
+	h3 {
+		text-align: center;
+		color: white;
+	<!-- font-size : 16 px;
+	-->
+	}
+	
+	}
+	
+	
+	
 </style>
 
 
@@ -350,6 +414,10 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         </nav>
     </div>
 </header>
+
+<div class="title"><h3>PLACE TITLE<h3></div>
+
+
 <div class="container">
 
     <div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -440,17 +508,15 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         </a>
     </div>
 
-    <h1>Fuck!!!!</h1>
+    <p>
 
-    <h1>Fuck!!!!</h1>
+    <span class="left">INSERT DISTANCE, INSERT PRICE </span>
 
-    <h1>Fuck!!!!</h1>
+    <span class="right">Insert Address</span>
 
-    <h1>Fuck!!!!</h1>
-
-    <h1>Fuck!!!!</h1>
-
-    <h1>Fuck!!!!</h1>
+    <span class="left">INSERT FEELINGS</span>
+	
+	</p>
 
 </div>
 

@@ -47,6 +47,62 @@
             text-align: center;
             color: white;
         }
+		
+		.sliders {
+
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.low {
+		float: left;
+	}
+
+	.high {
+		float: right;
+	}
+		
+		
+		
+		@media (max-width: 1000px){
+		body {
+        text-align: center;
+        background-image: url("mobile.jpg");
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center fixed;
+
+    }
+	
+	.sliders {
+
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	p {
+		text-align: center;
+		color: white;
+	<!-- font-size : 8 px;
+	-->
+	}
+
+	h3 {
+		text-align: center;
+		color: white;
+	<!-- font-size : 16 px;
+	-->
+	}
+	
+	}
+	
 
     </style>
 
@@ -98,108 +154,93 @@
     </br>
     </br>
     <form action="results.php" method="post" name="uploadForm" id="uploadForm">
-        <h3>Chatty</h3>
-        <br/>
+       <div class="sliders">
+            <h3>Chatty</h3>
+            <br/>
 
-        <p>Quiet Time -----> Conversational -----> Outgoing</p>
-        <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
+            <p><span class="low">Quiet Time</span> Conversational <span class="high">Outgoing<span></p>
+            <input id="feeling1" type="range" name="feeling1" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-        <p><span id="range">5</span></p>
-        </br>
-        <script type="text/javascript">
+            <p><span id="range">5</span></p>
+
+            <script type="text/javascript">
 
 
-            function get_nextsibling(n) {
-                x = n.nextSibling;
-                while (x.nodeType != 1) {
-                    x = x.nextSibling;
+                function get_nextsibling(n) {
+                    x = n.nextSibling;
+                    while (x.nodeType != 1) {
+                        x = x.nextSibling;
+                    }
+                    return x;
                 }
-                return x;
-            }
 
-            function showValue(self) {
-                get_nextsibling(self).innerHTML = self.value;
-            }
-            function uploadSpot() {
-                document.getElementById("uploadForm").submit();
-            }
-        </script>
+                function showValue(self) {
+                    get_nextsibling(self).innerHTML = self.value;
+                }
+            </script>
 
 
-        <br/>
+            <h3>Buzz</h3>
+            <br/>
 
-        <h3>Buzz</h3>
-        <br/>
+            <p><span class="low">Relaxed</span> Eager <span class="high">Wild<span></p>
+            <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-        <p>Relaxed -----> Eager -----> Wild</p>
-        <input id="feeling2" type="range" name="feeling2" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
-
-        <p><span id="range">5</span></p>
-        </br>
-
-        <br/>
-
-        <h3>Pump</h3>
-        <br/>
-
-        <p>Rest -----> Sweaty -----> Intense</p>
-        <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
-
-        <p><span id="range">5</span></p>
-        </br>
-
-        <br/>
-
-        <h3>Adventure</h3>
-        <br/>
-
-        <p>Comfortable -----> Explorative -----> Fearless</p>
-        <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
-
-        <p><span id="range">5</span></p>
-        </br>
-
-        <br/>
-
-        <h3>Bustle</h3>
-        <br/>
-
-        <p>Lone Wolf -----> Amongst It -----> Sardine Can</p>
-        <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
-
-        <p><span id="range">5</span></p>
-        </br>
+            <p><span id="range">5</span></p>
 
 
-        <br/>
+            <h3>Pump</h3>
+            <br/>
 
-        <h3>Lovey Dovey</h3>
-        <br/>
+            <p><span class="low">Rest</span> Sweaty <span class="high">Intense<span></p>
+            <input id="feeling3" type="range" name="feeling3" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-        <p>Platonic -----> Flirty -----> Intimate</p>
-        <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
-
-        <p><span id="range">5</span></p>
-        </br>
+            <p><span id="range">5</span></p>
 
 
-        <br/>
+            <h3>Adventure</h3>
+            <br/>
 
-        <h3>Trackies</h3>
-        <br/>
+            <p><span class="low">Comfortable</span> Explorative <span class="high">Fearless<span></p>
+            <input id="feeling4" type="range" name="feeling4" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
 
-        <p>Casual -----> Smart -----> Formal</p>
-        <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="1"
-               onchange="showValue(this)"/>
+            <p><span id="range">5</span></p>
 
-        <p><span id="range">5</span></p>
-        </br>
+
+            <h3>Bustle</h3>
+            <br/>
+
+            <p><span class="low">Lone Wolf</span> Amongst It <span class="high">Sardine Can<span></p>
+            <input id="feeling5" type="range" name="feeling5" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Lovey Dovey</h3>
+            <br/>
+
+            <p><span class="low">Platonic</span> Flirty <span class="high">Intimate<span></p>
+            <input id="feeling6" type="range" name="feeling6" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+
+
+            <h3>Trackies</h3>
+            <br/>
+
+            <p><span class="low">Casual</span> Smart <span class="high">Formal<span></p>
+            <input id="feeling7" type="range" name="feeling7" min="0" max="10" value="5" step="1"
+                   onchange="showValue(this)"/>
+
+            <p><span id="range">5</span></p>
+            </br>
+        </div>
     </form>
 
 
