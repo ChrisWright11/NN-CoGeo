@@ -36,7 +36,7 @@ $tableName = "CoGeo_Place_Database";
 
 $itemToBeRetrieved = array();
 
-$googleApiKey = "AIzaSyAiac_P0T3zRSeyxYy7cClNcVukbfZhslg";
+$googleApiKey = "AIzaSyAvDQv2jg_5L5McINCMg4FBJsRw_8X63OQ";
 
 $i = 0;
 
@@ -170,6 +170,7 @@ $placeAddress_9 = $data_9->result->formatted_address;
 
 $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=";
 
+
 ?>
 
 <link rel="stylesheet" href="/sources/slider/css/slider.css">
@@ -190,90 +191,126 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
 <!-- Latest compiled and minified JavaScript -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+    function initialize() {
+        var mapOptions = {
+            zoom: 4,
+            center: new google.maps.LatLng(-25.363882, 131.044922)
+        };
 
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            map: map,
+            title: 'Click to zoom'
+        });
+
+        google.maps.event.addListener(map, 'center_changed', function () {
+            // 3 seconds after the center of the map has changed, pan back to the
+            // marker.
+            window.setTimeout(function () {
+                map.panTo(marker.getPosition());
+            }, 3000);
+        });
+
+        google.maps.event.addListener(marker, 'click', function () {
+            map.setZoom(8);
+            map.setCenter(marker.getPosition());
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+    $('div').on('click', function () {
+        $(this).toggleClass('show-description');
+    });
+
+</script>
+<script type="text/javascript">
+    /* $(document).ready(function () {
+     $('.image img').each(function () {
+     // var maxWidth = 100; // Max width for the image
+     var maxHeight = 1000;    // Max height for the image
+     var ratio = 0;  // Used for aspect ratio
+     var width = $(this).width();    // Current image width
+     var height = $(this).height();  // Current image height
+
+     // Check if the current width is larger than the max
+     if (width > maxWidth) {
+     ratio = maxWidth / width;   // get ratio for scaling image
+     $(this).css("width", maxWidth); // Set new width
+     $(this).css("height", height * ratio);  // Scale height based on ratio
+     height = height * ratio;    // Reset height to match scaled image
+     width = width * ratio;    // Reset width to match scaled image
+     }
+
+     // Check if current height is larger than max
+     if (height > maxHeight) {
+     ratio = maxHeight / height; // get ratio for scaling image
+     $(this).css("height", maxHeight);   // Set new height
+     $(this).css("width", width * ratio);    // Scale width based on ratio
+     width = width * ratio;    // Reset width to match scaled image
+     }
+     });
+     }); */
+</script>
 <style>
 
 
-    body{
-            text-align: center;
-            background-image: url("galaxy.jpg");
-            background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center fixed;
+    body {
+        text-align: center;
+        background-image: url("galaxy.jpg");
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center fixed;
 
-        }
+    }
 
-        h1{
-            text-align: center;
-            color: white;
-        }
+    h1 {
+        text-align: center;
+        color: white;
+    }
 
-        p {
-		  color: rgba(255,255,255,1);
-		  background: black;
-		  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-		  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-		  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-		  line-height: 28px;
-		  text-align: center;
-		  <!--max-width: 400px;-->
-		  height: 15px;
-		  position: center;
-		  transition: height .5s;
-		  -webkit-transition: height .5s;
-		  -moz-transition: height .5s;
-		}
+    p {
+        color: rgba(255, 255, 255, 1);
+        line-height: 28px;
+        text-align: center;
+        max-width: 400px;
+        height: 15px;
+        position: center;
+    }
 
-        h3{
-            text-align: center;
-            color: white;
-        }
-		
-		small{
-			opacity: 0;
-		}
-		
-		.show-description p{
-			height: 250px;
-		}
-		
-		.show-description small {
-			opacity: 1;
-		}
-		
-		.carousel-caption{
-			text-align: center;
-			position: center;
-		}
-		
-		.price{
-			float: left;
-			margin: 10px;
-		}
-		
-		.relevance{
-			margin: 10px;
-		}
-		
-		.location{
-			float: right;
-			margin: 10px;
-		}
-		
-		.carousel {
-		  max-height: 700px;
-		  overflow: hidden;
+    h3 {
+        text-align: center;
+        color: white;
+    }
 
-		  .item img {
-			width: 100%;
-			height: auto;
-		  }
-		}
+    .carousel {
+        max-height: 500px;
+        min-height: 500px;
+        overflow: hidden;
 
+    .item img {
+        width: 500px;
+        height: 500px;
+    }
 
+    }
+
+    #map-canvas {
+        height: 200px;
+        width: 200px;
+        margin: 0px;
+        padding: 0px
+    }
 </style>
 
 
@@ -288,7 +325,8 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -299,7 +337,7 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-						<li class="active"><a href="places.php">Search</a></li>
+                        <li class="active"><a href="places.php">Search</a></li>
                         <li><a href="submit.php">Add Spot</a></li>
 
                     </ul>
@@ -332,120 +370,61 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_1 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_1 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_1 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img class="image"
+                         src="<?php echo $googlePlacePhotoUrl . $photoReference_1 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_2 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_2 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_2 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img class="image"
+                         src="<?php echo $googlePlacePhotoUrl . $photoReference_2 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_3 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_3 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_3 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img class="image"
+                         src="<?php echo $googlePlacePhotoUrl . $photoReference_3 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_4 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_4 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_4 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img class="image"
+                         src="<?php echo $googlePlacePhotoUrl . $photoReference_4 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_5 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_5 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_5 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img src="<?php echo $googlePlacePhotoUrl . $photoReference_5 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_6 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_6 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_6 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image6">
+                    <img src="<?php echo $googlePlacePhotoUrl . $photoReference_6 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_7 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_7 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_7 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img src="<?php echo $googlePlacePhotoUrl . $photoReference_7 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_8 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_8 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-
-                        <span class="location"><?php echo $placeAddress_8 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img src="<?php echo $googlePlacePhotoUrl . $photoReference_8 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
             <div class="item">
-                <img src="<?php echo $googlePlacePhotoUrl . $photoReference_9 . "&key=" . $googleApiKey ?>" alt="...">
-
-                <div class="carousel-caption">
-                    <h3><?php echo $placeName_9 ?></h3>
-
-                    <p><span class="price">INSERT PRICE</span>
-                       
-                        <span class="location"><?php echo $placeAddress_9 ?></span></br>
-                        <small>Bitches loooovvveeeee galaxies and babies and rainbows and candy</small>
-                    </p>
+                <div class="image">
+                    <img src="<?php echo $googlePlacePhotoUrl . $photoReference_9 . "&key=" . $googleApiKey ?>"
+                         alt="...">
                 </div>
             </div>
 
@@ -461,23 +440,28 @@ $googlePlacePhotoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidt
         </a>
     </div>
 
+    <h1>Fuck!!!!</h1>
+
+    <h1>Fuck!!!!</h1>
+
+    <h1>Fuck!!!!</h1>
+
+    <h1>Fuck!!!!</h1>
+
+    <h1>Fuck!!!!</h1>
+
+    <h1>Fuck!!!!</h1>
+
 </div>
 
 </br>
 </br>
 
 
-
-
 </br>
 </br>
 
-
-<script>
-    $('div').on('click', function () {
-        $(this).toggleClass('show-description');
-    });
-</script>
+<div id="map-canvas"></div>
 
 
 </body>

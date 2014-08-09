@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="14" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2432">
+            <state line="86" column="14" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-0.6785714" vertical-offset="1615" max-vertical-offset="2413">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="places.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/places.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="0" selection-start="4238" selection-end="4238" vertical-scroll-proportion="-0.6785714" vertical-offset="2736" max-vertical-offset="4636">
+            <state line="143" column="0" selection-start="4109" selection-end="4109" vertical-scroll-proportion="-0.6785714" vertical-offset="2698" max-vertical-offset="4598">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="dynamodbUploader.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="0" selection-start="3444" selection-end="3444" vertical-scroll-proportion="-6.785714" vertical-offset="1881" max-vertical-offset="3629">
+            <state line="116" column="0" selection-start="3290" selection-end="3290" vertical-scroll-proportion="-6.785714" vertical-offset="1843" max-vertical-offset="3591">
               <folding />
             </state>
           </provider>
@@ -62,19 +62,7 @@
       <file leaf-file-name="results.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="333" column="31" selection-start="11995" selection-end="12059" vertical-scroll-proportion="0.74509805" vertical-offset="5909" max-vertical-offset="9177">
-              <folding>
-                <element signature="e#37#115#0" expanded="true" />
-                <element signature="e#149#181#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/results.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="454" column="5" selection-start="0" selection-end="17647" vertical-scroll-proportion="-39.357143" vertical-offset="7524" max-vertical-offset="8987">
+            <state line="306" column="0" selection-start="11182" selection-end="11182" vertical-scroll-proportion="0.7037037" vertical-offset="5453" max-vertical-offset="9006">
               <folding>
                 <element signature="e#37#115#0" expanded="true" />
                 <element signature="e#149#181#0" expanded="true" />
@@ -526,14 +514,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="14" selection-start="2710" selection-end="2710" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2432">
+        <state line="86" column="14" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-0.6785714" vertical-offset="1615" max-vertical-offset="2413">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/places.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="4238" selection-end="4238" vertical-scroll-proportion="-0.6785714" vertical-offset="2736" max-vertical-offset="4636">
+        <state line="143" column="0" selection-start="4109" selection-end="4109" vertical-scroll-proportion="-0.6785714" vertical-offset="2698" max-vertical-offset="4598">
           <folding />
         </state>
       </provider>
@@ -547,14 +535,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamodbUploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="3444" selection-end="3444" vertical-scroll-proportion="-6.785714" vertical-offset="1881" max-vertical-offset="3629">
+        <state line="116" column="0" selection-start="3290" selection-end="3290" vertical-scroll-proportion="-6.785714" vertical-offset="1843" max-vertical-offset="3591">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="5" selection-start="0" selection-end="17647" vertical-scroll-proportion="-39.357143" vertical-offset="7524" max-vertical-offset="8987">
+        <state line="454" column="5" selection-start="0" selection-end="17647" vertical-scroll-proportion="1.9643494" vertical-offset="7524" max-vertical-offset="8987">
           <folding>
             <element signature="e#37#115#0" expanded="true" />
             <element signature="e#149#181#0" expanded="true" />
@@ -564,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="31" selection-start="11995" selection-end="12059" vertical-scroll-proportion="0.74509805" vertical-offset="5909" max-vertical-offset="9177">
+        <state line="306" column="0" selection-start="11182" selection-end="11182" vertical-scroll-proportion="0.7037037" vertical-offset="5453" max-vertical-offset="9006">
           <folding>
             <element signature="e#37#115#0" expanded="true" />
             <element signature="e#149#181#0" expanded="true" />
