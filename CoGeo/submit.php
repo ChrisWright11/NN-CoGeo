@@ -125,20 +125,6 @@
             <!-- font-size : 16 px;
             -->
             }
-			
-			
-		body {
-			text-align: center;
-			background-image: url("mobile.jpg");
-			background-size: cover;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center center fixed;
-
-		}
-	
 
         }
 
